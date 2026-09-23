@@ -155,6 +155,15 @@ VALUES
     (6, 'Frank Miller', 'Houston');
 
 INSERT INTO
+    inventories (product_id, product_name, quantity, price)
+VALUES
+    (101, 'Laptop', 50, 1200.00),
+    (102, 'Mouse', 200, 25.00),
+    (103, 'Keyboard', 150, 45.00),
+    (104, 'Monitor', 75, 300.00),
+    (105, 'Headphones', 100, 80.00);
+
+INSERT INTO
     orders (order_id, order_date, customer_id, total_amount)
 VALUES
     (1001, '2024-01-05', 1, 1250.00),
